@@ -1,0 +1,16 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    background: linear-gradient(to bottom, rgb(226, 85, 196), white)
+}
+.nav-item a:hover{
+background-color: black;
+}
+.contenido1{
+    max-width: 500px;
+}
+#principal{
+    height: 900px;
+}
+.imagen1{
+    height: 600px;
+}
