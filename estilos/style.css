@@ -3,13 +3,14 @@ body{
     background: linear-gradient(to bottom, rgb(226, 85, 196), white)
 }
 .nav-item a:hover{
-background-color: black;
+background-color: rgb(226, 85, 196);
 }
-.contenido1{
+
+.ancho__contenido{
     max-width: 500px;
 }
 
-.imagen1{
+.estilo__imagenes{
     height: 600px;
     width: 100%;
     border-radius: 5px;
@@ -20,4 +21,25 @@ background-color: black;
     border-radius: 5px;
     border: double 5px black;
     box-shadow: 8px 8px 8px 8px black;
+}
+.titulo__carrusel{
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+.titulo__carrusel2{
+    font-size: 30px;
+    text-decoration: underline;
+    color:black;
+}
+.texto__carrusel{
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.texto__carrusel2{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
 }
