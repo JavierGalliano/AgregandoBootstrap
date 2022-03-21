@@ -1,0 +1,78 @@
+$colores:(
+    "primario": rgb(226, 85, 196),
+    "letra1": black,
+    "letra2": white,    
+);
+@mixin fuentetitulos {
+    font-size: 30px;
+    text-decoration: underline;
+}
+@mixin fuentetexto {
+    font-size: 20px;
+    text-decoration: none;
+}
+@mixin imagenescarrusel {
+    height: 600px;
+    width: 100%;
+}
+@mixin imagenesequipo {
+    width: 100%;
+    height: 80%;
+    border: solid 4px map-get($map: $colores, $key: primario );
+    
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    background: linear-gradient(to bottom, rgb(226, 85, 196), white)
+}
+.nav-item{
+    a{
+        &:hover{
+            background-color: map-get($map: $colores, $key: primario );
+        }
+    }
+}
+.ancho__contenido{
+    max-width: 500px;
+}
+.estilo__imagenes{
+    height: 600px;
+    width: 100%;
+    border-radius: 5px;
+    border: double 8px black;
+    box-shadow: 10px 10px 10px black;
+}
+.imagenes__productos{
+    border-radius: 5px;
+    border: double 5px black;
+    box-shadow: 8px 8px 8px 8px black;
+}
+.titulo__carrusel{
+    @include fuentetitulos;
+    color: map-get($map: $colores, $key: letra2);
+}
+.titulo__carrusel2{
+    @include fuentetitulos;
+    color: map-get($map: $colores, $key: letra1);
+}
+.texto__carrusel{
+    @include fuentetexto;
+}
+.texto__carrusel2{
+    @include fuentetexto;
+    color: map-get($map: $colores, $key:letra1);
+
+}
+.imagenes__carrusel{
+    @include imagenescarrusel;
+}
+.imagenes__equipo{
+    @include imagenesequipo;
+}
+.texto__contacto{
+    @include fuentetexto;
+}
+.imagen__articulo{
+    width: 100%;
+    height: 100% ;
+}

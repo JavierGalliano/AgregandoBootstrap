@@ -1,0 +1,57 @@
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  background: linear-gradient(to bottom, #e255c4, white); }
+
+.nav-item a:hover {
+  background-color: #e255c4; }
+
+.ancho__contenido {
+  max-width: 500px; }
+
+.estilo__imagenes {
+  height: 600px;
+  width: 100%;
+  border-radius: 5px;
+  border: double 8px black;
+  box-shadow: 10px 10px 10px black; }
+
+.imagenes__productos {
+  border-radius: 5px;
+  border: double 5px black;
+  box-shadow: 8px 8px 8px 8px black; }
+
+.titulo__carrusel {
+  font-size: 30px;
+  text-decoration: underline;
+  color: white; }
+
+.titulo__carrusel2 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: black; }
+
+.texto__carrusel {
+  font-size: 20px;
+  text-decoration: none; }
+
+.texto__carrusel2 {
+  font-size: 20px;
+  text-decoration: none;
+  color: black; }
+
+.imagenes__carrusel {
+  height: 600px;
+  width: 100%; }
+
+.imagenes__equipo {
+  width: 100%;
+  height: 80%;
+  border: solid 4px #e255c4; }
+
+.texto__contacto {
+  font-size: 20px;
+  text-decoration: none; }
+
+.imagen__articulo {
+  width: 100%;
+  height: 100%; }
